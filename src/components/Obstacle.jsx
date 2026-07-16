@@ -9,7 +9,7 @@ export default function Obstacle({ obstacle }) {
         height: obstacle.height,
       }}
     >
-      {obstacle.type === 'bench' && <span />}
+      {(obstacle.type === 'bench' || obstacle.type === 'wall') && <span />}
     </div>
   );
 }

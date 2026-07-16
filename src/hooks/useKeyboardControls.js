@@ -13,6 +13,10 @@ const GAME_KEYS = new Set([
   'ArrowDown',
   'ArrowLeft',
   'ArrowRight',
+  'f',
+  'F',
+  'Enter',
+  'Escape',
 ]);
 
 export function useKeyboardControls(enabled) {
